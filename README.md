@@ -7,9 +7,9 @@
 | web              | js / ts                 | -      | js / ts     | browser        | -        | angular      |
 | web              | js / ts                 | -      | js / ts     | browser        | -        | react        |
 | web              | js / ts                 | -      | js / ts     | browser        | -        | vue          |
-| web              | wasm                    | -      | cpp         | browser        | -        | ?            |
-| web              | wasm                    | -      | rust        | browser        | -        | ?            |
-| web              | wasm                    | -      | golang      | browser        | -        | ?            |
+| web              | wasm                    | -      | cpp         | browser        | -        | [asm-dom](https://github.com/mbasso/asm-dom) |
+| web              | wasm                    | -      | rust        | browser        | -        | [yew](https://github.com/yewstack/yew) / [dioxus](https://github.com/DioxusLabs/dioxus) |
+| web              | wasm                    | -      | golang      | browser        | -        | [golang wasm wiki](https://github.com/golang/go/wiki/WebAssembly) |
 | desktop          | cpp                     | -      | cpp         | os             | -        | ?            |
 | desktop          | rust                    | -      | rust        | os             | -        | ?            |
 | desktop          | golang                  | -      | golang      | os             | -        | ?            |
