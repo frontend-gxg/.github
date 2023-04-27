@@ -2,14 +2,12 @@
 
 | platform         | low                     | mid    | high        | runtime        | wrapper  | framework    |
 |------------------|-------------------------|--------|-------------|----------------|----------|--------------|
-| web              | js / ts                 | -      | js / ts     | browser        | -        | angular      |
-| web              | js / ts                 | -      | js / ts     | browser        | -        | react        |
-| web              | js / ts                 | -      | js / ts     | browser        | -        | vue          |
+| web              | js / ts                 | -      | js / ts     | browser        | -        | angular / react / vue |
 | web              | wasm                    | -      | cpp         | browser        | -        | [asm-dom](https://github.com/mbasso/asm-dom) |
 | web              | wasm                    | -      | rust        | browser        | -        | [yew](https://github.com/yewstack/yew) / [dioxus](https://github.com/DioxusLabs/dioxus) |
 | web              | wasm                    | -      | golang      | browser        | -        | [golang wasm wiki](https://github.com/golang/go/wiki/WebAssembly) |
-| desktop          | cpp                     | -      | cpp         | os             | -        | ?            |
-| desktop          | rust                    | -      | rust        | os             | -        | ?            |
+| desktop          | cpp                     | -      | cpp         | os             | -        | [imgui](https://github.com/ocornut/imgui) |
+| desktop          | rust                    | -      | rust        | os             | -        | [iced](https://github.com/iced-rs/iced) / [egui](https://github.com/emilk/egui) |
 | desktop          | golang                  | -      | golang      | os             | -        | [fyne](https://github.com/fyne-io/fyne) |
 | desktop          | cpp / rust / golang     | -      | js / ts     | os             | -        | react-native |
 | desktop          | js / ts                 | cpp    | js / ts     | browser on os  | electron | *            |
@@ -35,13 +33,11 @@
 - render: state -> view 
   - angular: shadow dom + incremental dom
   - react / vue: virtual dom
-    - https://www.zhihu.com/search?type=content&q=virtual%20dom
-    - https://www.google.com/search?q=virtual+dom+%E5%AE%9E%E7%8E%B0
 
 ### 组件化 
 
-- 父组件数据流向子组件
-- 子组件数据流向父组件
+- 数据从父组件流向子组件
+- 数据从子组件流向父组件
 
 ### 其他
 
