@@ -25,7 +25,7 @@
 
 ## framework
 
-### 视图与状态分离: mvvm
+### 视图与状态分离：mvvm
 
 - event -> state / data -> view
 - detect change: event -> state / data 
@@ -34,7 +34,7 @@
   - angular: shadow dom + incremental dom
   - react / vue: virtual dom
 
-#### 前后端分离: data
+#### 前后端分离：data
 
 - api
 
