@@ -33,7 +33,7 @@
 ### 后端化
 
 - nodejs
-- route
+- router
 
 ### 组件化 
 
