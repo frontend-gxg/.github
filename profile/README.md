@@ -25,9 +25,17 @@
 
 ## framework
 
-### 前后端分离
+### 视图与状态分离: mvvm
 
-- style vs data
+- event -> state / data -> view
+- detect change: event -> state / data 
+  - angular: zone.js
+- render: state / data -> view 
+  - angular: shadow dom + incremental dom
+  - react / vue: virtual dom
+
+#### 前后端分离: data
+
 - api
 
 ### 后端化
@@ -37,14 +45,7 @@
 
 ### 组件化 
 
-- data flow from parent component to child component
-- data flow from child component to parent component
-
-### mvvm
-
-- event -> state -> view
-- detect change: event -> state 
-  - angular: zone.js
-- render: state -> view 
-  - angular: shadow dom + incremental dom
-  - react / vue: virtual dom
+- state / data isolate between components
+- state / data share between components
+- state / data flow from parent component to child component
+- state / data flow from child component to parent component
