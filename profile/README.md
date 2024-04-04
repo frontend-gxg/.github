@@ -25,6 +25,21 @@
 
 ## framework
 
+### 前后端分离
+
+- style vs data
+- api
+
+### 后端化
+
+- nodejs
+- route
+
+### 组件化 
+
+- data flow from parent component to child component
+- data flow from child component to parent component
+
 ### mvvm
 
 - event -> state -> view
@@ -33,13 +48,3 @@
 - render: state -> view 
   - angular: shadow dom + incremental dom
   - react / vue: virtual dom
-
-### 组件化 
-
-- 数据从父组件流向子组件
-- 数据从子组件流向父组件
-
-### 其他
-
-- dynamic template
-- route
